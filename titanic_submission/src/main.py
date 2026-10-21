@@ -216,7 +216,7 @@ def train(X,y,epoches,batch_size,Ir):
             print(f'Epoch{epoch + 1:2d},loss:{epoch_loss / batch_count:4f}')
 
      # 绘图（直接用前面的函数）
-    plt_ok(list(range(0,len(loss_history))), loss_history,xlabel='epoches_nun',ylabel='train_loss',figsize=(10,10),l)
+    plt_ok(list(range(0,len(loss_history))), loss_history,xlabel='epoches_nun',ylabel='train_loss')
     plt_two2(epoches,train_accuracy_history,test_accuracy_history)
 
 
